@@ -3,83 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manga Compass — coming soon</title>
+<title>Manga Compass — which manga edition should you actually buy?</title>
 <meta name="description" content="A catalog for manga collectors: which language editions exist, from which publisher, and what they cost.">
 <meta name="robots" content="noindex">
 <style>
-  :root{
-    --paper:#faf7f1; --card:#fff; --ink:#211c18; --sub:#6f655c;
-    --line:#e6ded2; --accent:#b5372f;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    background:var(--paper); color:var(--ink);
-    font-family:Georgia,'Hiragino Mincho ProN','Noto Serif',serif;
-    line-height:1.7; min-height:100vh;
-    display:flex; align-items:center; justify-content:center;
-    padding:40px 20px;
-  }
-  .sheet{
-    max-width:560px; width:100%;
-    background:var(--card); border:1px solid var(--line);
-    border-radius:14px; padding:44px 34px 34px;
-  }
-  .mark{
-    font-size:11px; letter-spacing:.22em; text-transform:uppercase;
-    color:var(--accent); font-family:'Helvetica Neue',Arial,sans-serif;
-  }
-  h1{font-size:30px; letter-spacing:.02em; margin:10px 0 4px; font-weight:600;}
-  .wt{font-size:12px; color:var(--sub); font-family:'Helvetica Neue',Arial,sans-serif;}
-  .rule{height:1px; background:var(--line); margin:22px 0;}
-  .lead{font-size:16.5px;}
-  ul{list-style:none; margin:20px 0 0;}
-  li{
-    font-size:15px; color:var(--ink); padding:9px 0 9px 22px;
-    position:relative; border-bottom:1px dotted var(--line);
-  }
-  li:last-child{border-bottom:none;}
-  li::before{
-    content:"—"; position:absolute; left:0; color:var(--accent);
-  }
-  .foot{
-    margin-top:26px; font-size:13px; color:var(--sub);
-    font-family:'Helvetica Neue',Arial,sans-serif;
-  }
-  .soon{
-    display:inline-block; font-size:11px; letter-spacing:.14em;
-    font-family:'Helvetica Neue',Arial,sans-serif;
-    border:1px solid var(--line); border-radius:20px;
-    padding:5px 13px; color:var(--sub); margin-top:20px;
-  }
+:root{
+--paper:#faf7f1; --card:#fff; --ink:#211c18; --sub:#6f655c;
+--line:#e6ded2; --accent:#b5372f;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+background:var(--paper); color:var(--ink);
+font-family:Georgia,'Hiragino Mincho ProN','Noto Serif',serif;
+line-height:1.7; min-height:100vh;
+display:flex; align-items:center; justify-content:center;
+padding:40px 20px;
+}
+.sheet{
+max-width:560px; width:100%;
+background:var(--card); border:1px solid var(--line);
+border-radius:14px; padding:44px 34px 34px;
+}
+.mark{
+font-size:11px; letter-spacing:.22em; text-transform:uppercase;
+color:var(--accent); font-family:'Helvetica Neue',Arial,sans-serif;
+}
+h1{font-size:30px; letter-spacing:.02em; margin:10px 0 4px; font-weight:600;}
+.wt{font-size:12px; color:var(--sub); font-family:'Helvetica Neue',Arial,sans-serif;}
+.rule{height:1px; background:var(--line); margin:22px 0;}
+.lead{font-size:16.5px;}
+ul{list-style:none; margin:20px 0 0;}
+li{
+font-size:15px; color:var(--ink); padding:9px 0 9px 22px;
+position:relative; border-bottom:1px dotted var(--line);
+}
+li:last-child{border-bottom:none;}
+li::before{
+content:"—"; position:absolute; left:0; color:var(--accent);
+}
+.entry{
+display:block; font-size:19.5px; line-height:1.45;
+color:var(--ink); text-decoration:none;
+margin:10px 0 5px; padding-bottom:3px;
+border-bottom:1px solid var(--accent);
+}
+.entry:hover{color:var(--accent);}
+.foot{
+margin-top:26px; font-size:13px; color:var(--sub);
+font-family:'Helvetica Neue',Arial,sans-serif;
+}
+.soon{
+display:inline-block; font-size:11px; letter-spacing:.14em;
+font-family:'Helvetica Neue',Arial,sans-serif;
+border:1px solid var(--line); border-radius:20px;
+padding:5px 13px; color:var(--sub); margin-top:20px;
+}
 </style>
 </head>
 <body>
-  <main class="sheet">
-    <div class="mark">For manga collectors</div>
-    <h1>Manga&nbsp;Compass</h1>
-    <div class="wt">working title</div>
+<main class="sheet">
+<div class="mark">For manga collectors</div>
+<h1>Manga&nbsp;Compass</h1>
+<div class="wt">working title</div>
 
-    <div class="rule"></div>
+<div class="rule"></div>
 
-    <p class="lead">
-      You found a manga you want. Now the hard part:
-      <em>which edition should you actually buy?</em>
-    </p>
+<p class="lead">
+You found a manga you want. Now the hard part:
+<em>which edition should you actually buy?</em>
+</p>
 
-    <ul>
-      <li>Which languages has it been released in — and which ones haven't happened yet?</li>
-      <li>Which publisher, how many volumes, and does that edition still exist in print?</li>
-      <li>Tankōbon, bunko, kanzenban, omnibus — what's the real difference?</li>
-      <li>What does the whole set cost, new and used?</li>
-      <li>And if there's no edition in your language yet — we'll email you when one is born.</li>
-    </ul>
+<ul>
+<li>Which languages has it been released in — and which ones haven't happened yet?</li>
+<li>Which publisher, how many volumes, and does that edition still exist in print?</li>
+<li>Tankōbon, bunko, kanzenban, omnibus — what's the real difference?</li>
+<li>What does the whole set cost, new and used?</li>
+<li>And if there's no edition in your language yet — we'll email you when one is born.</li>
+</ul>
 
-    <p class="foot">
-      A small, quiet reference site. No accounts, no feeds, no forum.
-      Just the answer, and a link to buy the right book.
-    </p>
+<div class="rule"></div>
 
-    <div class="soon">Opening 2026</div>
-  </main>
+<div class="mark">Guides</div>
+<a class="entry" href="/manga/devilman/">Devilman — every edition, and which one to actually buy</a>
+<div class="wt">18 print editions, 1972–2018 · Japanese publishers, volume counts, ISBNs, and what each one costs new and used right now</div>
+
+<p class="foot">
+A small, quiet reference site. No accounts, no feeds, no forum.
+Just the answer, and a link to buy the right book.
+</p>
+
+<div class="soon">1 guide published · more coming</div>
+</main>
 </body>
 </html>
