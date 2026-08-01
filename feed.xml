@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Edition Compass — new guides</title>
+  <link>https://editioncompass.com/</link>
+  <description>Which manga editions exist, from which publisher, and which one to actually buy. A new entry when a new guide goes up.</description>
+  <language>en</language>
+  <lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0900</lastBuildDate>
+  <atom:link href="https://editioncompass.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Devilman — every edition, and which one to actually buy</title>
+    <link>https://editioncompass.com/manga/devilman/</link>
+    <guid isPermaLink="true">https://editioncompass.com/manga/devilman/</guid>
+    <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
+    <description>18 print editions, 1972–2018. Japanese publishers, volume counts, ISBNs, and what each one costs new and used right now.</description>
+  </item>
+</channel>
+</rss>
