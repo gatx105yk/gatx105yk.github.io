@@ -3,8 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manga Compass — which manga edition should you actually buy?</title>
-<meta name="description" content="A catalog for manga collectors: which language editions exist, from which publisher, and what they cost.">
+<title>Edition Compass — which manga edition should you actually buy?</title>
+<meta name="description" content="A catalog for manga collectors: which language editions of a manga exist, from which publisher, how many volumes, and what they cost new and used.">
+<link rel="canonical" href="https://editioncompass.com/">
+<link rel="alternate" type="application/rss+xml" title="Edition Compass — new guides" href="/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edition Compass">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Edition Compass — which manga edition should you actually buy?">
+<meta property="og:description" content="A catalog for manga collectors: which language editions of a manga exist, from which publisher, how many volumes, and what they cost new and used.">
+<meta property="og:url" content="https://editioncompass.com/">
+<meta property="og:image" content="https://editioncompass.com/og/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Edition Compass — a reference for manga collectors">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Edition Compass — which manga edition should you actually buy?">
+<meta name="twitter:description" content="A catalog for manga collectors: which language editions of a manga exist, from which publisher, how many volumes, and what they cost new and used.">
+<meta name="twitter:image" content="https://editioncompass.com/og/default.png">
 <style>
 :root{
 --paper:#faf7f1; --card:#fff; --ink:#211c18; --sub:#6f655c;
@@ -15,13 +31,17 @@ body{
 background:var(--paper); color:var(--ink);
 font-family:Georgia,'Hiragino Mincho ProN','Noto Serif',serif;
 line-height:1.7; min-height:100vh;
-display:flex; align-items:center; justify-content:center;
+display:flex; justify-content:center;
 padding:40px 20px;
 }
 .sheet{
 max-width:560px; width:100%;
 background:var(--card); border:1px solid var(--line);
 border-radius:14px; padding:44px 34px 34px;
+/* 縦の中央寄せは align-items:center ではなく auto マージンでやる。
+   center は画面より背が高くなった瞬間に上をはみ出させ、
+   そこへはスクロールで戻れなくなる。auto マージンは切らない。 */
+margin:auto;
 }
 .mark{
 font-size:11px; letter-spacing:.22em; text-transform:uppercase;
@@ -51,19 +71,33 @@ border-bottom:1px solid var(--accent);
 margin-top:26px; font-size:13px; color:var(--sub);
 font-family:'Helvetica Neue',Arial,sans-serif;
 }
+.foot a{color:var(--accent);}
 .soon{
 display:inline-block; font-size:11px; letter-spacing:.14em;
 font-family:'Helvetica Neue',Arial,sans-serif;
 border:1px solid var(--line); border-radius:20px;
 padding:5px 13px; color:var(--sub); margin-top:20px;
 }
+.ask p{font-size:15px; margin:10px 0;}
+.ask-link{
+display:inline-block; font-size:16.5px; margin-top:4px;
+color:var(--accent); text-decoration:none;
+border-bottom:1px solid var(--accent); padding-bottom:2px;
+}
+.ask-link:hover{color:var(--ink); border-bottom-color:var(--ink);}
+/* 更新の知らせ方は RSS だけにした。読者の住所を預からずに済むのが
+   理由なので、そう読める文と位置に置いてある */
+.quiet{
+margin-top:18px; font-size:12.5px; line-height:1.6; color:var(--sub);
+font-family:'Helvetica Neue',Arial,sans-serif;
+}
+.quiet a{color:var(--accent);}
 </style>
 </head>
 <body>
 <main class="sheet">
 <div class="mark">For manga collectors</div>
-<h1>Manga&nbsp;Compass</h1>
-<div class="wt">working title</div>
+<h1>Edition&nbsp;Compass</h1>
 
 <div class="rule"></div>
 
@@ -77,7 +111,6 @@ You found a manga you want. Now the hard part:
 <li>Which publisher, how many volumes, and does that edition still exist in print?</li>
 <li>Tankōbon, bunko, kanzenban, omnibus — what's the real difference?</li>
 <li>What does the whole set cost, new and used?</li>
-<li>And if there's no edition in your language yet — we'll email you when one is born.</li>
 </ul>
 
 <div class="rule"></div>
@@ -86,9 +119,27 @@ You found a manga you want. Now the hard part:
 <a class="entry" href="/manga/devilman/">Devilman — every edition, and which one to actually buy</a>
 <div class="wt">18 print editions, 1972–2018 · Japanese publishers, volume counts, ISBNs, and what each one costs new and used right now</div>
 
+<div class="rule"></div>
+
+<div class="ask">
+<div class="mark">Ask for a guide</div>
+<p>
+No guide yet for the manga you're after? Tell us which one. It takes one line,
+and it asks for nothing else — no name, no email address, no account. That does
+mean we can't write back, but we read every request.
+</p>
+<a class="ask-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfGvEoMwlDiWHArXmp9Do6sTG05v17IBVcfKeYcOmyL5aNX1g/viewform" rel="noopener">Request a manga →</a>
+
+<p class="quiet">
+New guides go out on the <a href="/feed.xml">RSS feed</a> — point any reader at
+it. There is no mailing list and nothing here that knows who you are.
+</p>
+</div>
+
 <p class="foot">
-A small, quiet reference site. No accounts, no feeds, no forum.
-Just the answer, and a link to buy the right book.
+A small, quiet reference site. No accounts, no forum, nothing that tracks you.
+Just the answer, and a link to buy the right book.<br>
+<a href="/privacy/">Privacy</a>
 </p>
 
 <div class="soon">1 guide published · more coming</div>
