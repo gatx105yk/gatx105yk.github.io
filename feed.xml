@@ -5,8 +5,15 @@
   <link>https://editioncompass.com/</link>
   <description>Which manga editions exist, from which publisher, and which one to actually buy. A new entry when a new guide goes up.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0900</lastBuildDate>
   <atom:link href="https://editioncompass.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Gintama — the 54 volumes never published in English, and what they cost</title>
+    <link>https://editioncompass.com/manga/gintama/</link>
+    <guid isPermaLink="true">https://editioncompass.com/manga/gintama/</guid>
+    <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    <description>VIZ published 23 of Gintama's 77 volumes in English, then stopped. What the remaining 54 cost new from Japan right now, volume by volume with ISBNs.</description>
+  </item>
   <item>
     <title>Devilman — every edition, and which one to actually buy</title>
     <link>https://editioncompass.com/manga/devilman/</link>
