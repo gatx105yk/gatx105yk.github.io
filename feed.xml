@@ -5,8 +5,15 @@
   <link>https://editioncompass.com/</link>
   <description>Which manga editions exist, from which publisher, and which one to actually buy. A new entry when a new guide goes up.</description>
   <language>en</language>
-  <lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 00:00:00 +0900</lastBuildDate>
   <atom:link href="https://editioncompass.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Buying manga from Japan — shipping, payment and import tax</title>
+    <link>https://editioncompass.com/guides/buy-from-japan/</link>
+    <guid isPermaLink="true">https://editioncompass.com/guides/buy-from-japan/</guid>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0900</pubDate>
+    <description>Seven countries can no longer order from Rakuten Ichiba directly. Six of them can still get the books. Norway cannot. What the route costs, and what we could not measure.</description>
+  </item>
   <item>
     <title>Gintama — the 54 volumes never published in English, and what they cost</title>
     <link>https://editioncompass.com/manga/gintama/</link>
