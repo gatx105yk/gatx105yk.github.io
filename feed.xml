@@ -5,8 +5,15 @@
   <link>https://editioncompass.com/</link>
   <description>Which manga editions exist, from which publisher, and which one to actually buy. A new entry when a new guide goes up.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0900</lastBuildDate>
   <atom:link href="https://editioncompass.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Hajime no Ippo — what you can read in English, and what you can't</title>
+    <link>https://editioncompass.com/manga/hajime-no-ippo/</link>
+    <guid isPermaLink="true">https://editioncompass.com/manga/hajime-no-ippo/</guid>
+    <pubDate>Sun, 16 Aug 2026 00:00:00 +0900</pubDate>
+    <description>Kodansha's own English app has 237 chapters. Its Japanese app has 1,515. There is no English print edition — though there is a Spanish one. What all 145 Japanese volumes cost used, volume by volume.</description>
+  </item>
   <item>
     <title>Buying manga from Japan — shipping, payment and import tax</title>
     <link>https://editioncompass.com/guides/buy-from-japan/</link>
